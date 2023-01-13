@@ -17,6 +17,7 @@ const SignUp = () => {
         .then((userCredential) => {
           // Signed in 
           const user = userCredential.user;
+          localStorage.setItem("authUser", JSON.stringify(user.email))
           setLogged(true)
           navigate("/")  
         })
@@ -25,6 +26,7 @@ const SignUp = () => {
           const errorMessage = error.message;
         });
     }
+    
   return (
 <section className="signin-area signin-one">
    <div className="container ">
