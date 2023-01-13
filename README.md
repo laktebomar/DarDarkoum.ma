@@ -48,3 +48,10 @@ measurementId: ""
 You can get more info in the following link : https://firebase.google.com/docs
 
 create two collection; annonce and users then you are set up to run the project
+
+### `Progressive web app`
+
+the service worker is already installed and works as expected.
+
+once the application is up you can install the app by clicking on this icon:
+<img width="208" alt="Screenshot 2023-01-13 at 19 48 23" src="https://user-images.githubusercontent.com/45787256/212396257-854c1a46-c034-4e97-ae28-554f5a4f9fa5.png">
